@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-prune-cm
+  namespace: default
+data:
+  example: "this will be pruned when removed from git"
